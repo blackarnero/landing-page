@@ -1,0 +1,26 @@
+.quote.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+
+.quote__text {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 300;
+    width: 600px;
+}
+
+.quote__speaker {
+    display: flex;
+    align-self: flex-end;
+    border: 1px solid red;
+}
+
+.quote__speaker-text {
+    margin-left: auto;
+    font-weight: bold;
+    color: #1f2937;
+}
