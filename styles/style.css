@@ -1,4 +1,5 @@
 :root {
+    /* sizes */
     --size-xxs: 0.5rem;
     --size-xs: 0.75rem;
     --size-sm: 0.875rem;
@@ -14,6 +15,11 @@
     --size-8xl: 6rem;
     --size-9xl: 8rem;
     --size-10xl: 10rem;
+
+    /* color */
+    --color-dark: #222538;
+    --color-light: #f9fafb;
+    --color-blue: #6c33fe;
 }
 
 * {
@@ -26,31 +32,13 @@ html {
 }
 
 body {
-    background-color: #222538;
-    color: #f9fafb;
+    background-color: var(--color-dark);
+    color: var(--color-light);
 }
 
 a {
-    color: #f9fafb;
+    color: var(--color-light);
     text-decoration: none;
     cursor: pointer;
 }
 
-.header.container {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-}
-
-.header__logo {
-    display: flex;
-    margin-top: 1rem;
-    margin-left: 10rem;
-}
-
-.header__menu {
-    display: flex;
-    list-style: none;
-    gap: 2rem;
-    margin-right: 10rem;
-}

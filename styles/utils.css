@@ -1,0 +1,48 @@
+.container {
+    width: 100%;
+    margin-left: var(--size-xxs);
+    margin-right: var(--size-xxs);
+}
+
+/* these are media queries
+xs */
+@media (min-width: 440px) {
+    .container {
+        min-width: 440px;
+    }
+}
+
+/* sm */
+@media (min-width: 660px) {
+    .container {
+        min-width: 660px;
+    }
+}
+
+/* md */
+@media (min-width: 880px) {
+    .container {
+        min-width: 880px;
+    }
+}
+
+/* lg */
+@media (min-width: 1020px) {
+    .container {
+        min-width: 1020px;
+    }
+}
+
+/* xl */
+@media (min-width: 1240px) {
+    .container {
+        min-width: 1240px;
+    }
+}
+
+/* 2xl */
+@media (min-width: 1580px) {
+    .container {
+        min-width: 1580px;
+    }
+}

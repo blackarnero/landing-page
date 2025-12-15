@@ -1,0 +1,22 @@
+.about.container {
+    background-color: var(--color-light);
+    padding: 2rem;
+}
+
+.about__title {
+    color: var(--color-dark);
+    text-align: center;
+    font-weight: bold;
+}
+
+.about__examples {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+
+.clown {
+    width: 10rem;
+    height: 10rem;
+}
