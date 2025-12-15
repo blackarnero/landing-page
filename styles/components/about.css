@@ -1,12 +1,14 @@
 .about.container {
     background-color: var(--color-light);
-    padding: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
 }
 
 .about__title {
-    color: var(--color-dark);
+    color: #1f2937;
+    font-size: 36px;
     text-align: center;
-    font-weight: bold;
+    font-weight: 900;
 }
 
 .about__examples {
@@ -19,4 +21,9 @@
 .clown {
     width: 10rem;
     height: 10rem;
+}
+
+.clown__description {
+    color: var(--color-dark);
+    text-align: center;
 }

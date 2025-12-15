@@ -17,14 +17,15 @@
     --size-10xl: 10rem;
 
     /* color */
-    --color-dark: #222538;
+    --color-dark: #1f2937;
     --color-light: #f9fafb;
-    --color-blue: #6c33fe;
+    --color-blue: #3882f6;
 }
 
 * {
     margin: 0;
     line-height: calc(1em + 0.5rem);
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 html {
