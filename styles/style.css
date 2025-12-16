@@ -33,7 +33,7 @@ html {
 }
 
 body {
-    background-color: var(--color-dark);
+    background-color: var(--color-light);
     color: var(--color-light);
 }
 
@@ -43,3 +43,6 @@ a {
     cursor: pointer;
 }
 
+button {
+    display: block;
+}

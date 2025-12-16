@@ -1,0 +1,32 @@
+.call-to-action.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem auto;
+}
+
+.call-to-action {
+    /* margin: 5rem auto; */
+    border-radius: 10px;
+    display: flex;
+    padding: 1rem;
+    flex: 1;
+    justify-content: center;
+    background-color: var(--color-blue);
+    width: 1000px;
+}
+
+.call-to-action__left-side {
+    
+}
+
+.call-to-action__right-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5rem;
+}
+
+.call-to-action__button {
+    width: 100px;
+}

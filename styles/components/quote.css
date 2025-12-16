@@ -16,7 +16,6 @@
 .quote__speaker {
     display: flex;
     align-self: flex-end;
-    border: 1px solid red;
 }
 
 .quote__speaker-text {
